@@ -6,7 +6,7 @@
           <svg-icon icon-class="peoples" class-name="card-panel-icon" />
         </div>
         <div class="card-panel-description">
-          <div class="card-panel-text">New Visits</div>
+          <div class="card-panel-text">New User</div>
           <count-to :start-val="0" :end-val="102400" :duration="2600" class="card-panel-num"/>
         </div>
       </div>

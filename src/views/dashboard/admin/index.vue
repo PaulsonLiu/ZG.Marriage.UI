@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-editor-container">
 
-    <github-corner style="position: absolute; top: 0px; border: 0; right: 0;"/>
+    <!-- <github-corner style="position: absolute; top: 0px; border: 0; right: 0;"/> -->
 
     <panel-group @handleSetLineChartData="handleSetLineChartData"/>
 
@@ -9,7 +9,7 @@
       <line-chart :chart-data="lineChartData"/>
     </el-row>
 
-    <el-row :gutter="32">
+    <!-- <el-row :gutter="32">
       <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
           <raddar-chart/>
@@ -37,7 +37,7 @@
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
         <box-card/>
       </el-col>
-    </el-row>
+    </el-row> -->
 
   </div>
 </template>

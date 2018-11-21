@@ -1,6 +1,10 @@
 export default {
   route: {
     dashboard: 'Dashboard',
+    userManage: 'User Manager',
+    fileManage: 'File Manager',
+    userDictionary: 'User Dictionary',
+    Setting: 'Setting',
     introduction: 'Introduction',
     documentation: 'Documentation',
     guide: 'Guide',

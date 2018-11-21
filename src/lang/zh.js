@@ -1,6 +1,10 @@
 export default {
   route: {
     dashboard: '首页',
+    userManager: '用户管理',
+    fileManager: '文件管理',
+    userDictionary: '用户字典',
+    Setting: '系统设置',
     introduction: '简述',
     documentation: '文档',
     guide: '引导页',

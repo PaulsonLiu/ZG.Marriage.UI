@@ -76,6 +76,19 @@ export const constantRouterMap = [
     ]
   },
   {
+    path: '/user-manager',
+    component: Layout,
+    redirect: '/user-manager/index',
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/userManager/index'),
+        name: 'UserManager',
+        meta: { title: 'userManager', icon: 'user', noCache: true }
+      }
+    ]
+  },
+  {
     path: '/documentation',
     component: Layout,
     redirect: '/documentation/index',
